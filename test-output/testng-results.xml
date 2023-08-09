@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-07T08:11:46 IST" name="Default suite" finished-at="2023-08-07T08:12:16 IST" duration-ms="29641">
+    <groups>
+    </groups>
+    <test started-at="2023-08-07T08:11:46 IST" name="Default test" finished-at="2023-08-07T08:12:16 IST" duration-ms="29641">
+      <class name="testcases.HandlingExcel">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:testcases.HandlingExcel@71d44a3]" started-at="2023-08-07T08:11:46 IST" name="openUrl" finished-at="2023-08-07T08:12:04 IST" duration-ms="17418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openUrl -->
+        <test-method signature="excel()[pri:0, instance:testcases.HandlingExcel@71d44a3]" started-at="2023-08-07T08:12:04 IST" name="excel" finished-at="2023-08-07T08:12:15 IST" duration-ms="11907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- excel -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.HandlingExcel@71d44a3]" started-at="2023-08-07T08:12:15 IST" name="closeBrowser" finished-at="2023-08-07T08:12:16 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testcases.HandlingExcel -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
