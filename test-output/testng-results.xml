@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-07T08:11:46 IST" name="Default suite" finished-at="2023-08-07T08:12:16 IST" duration-ms="29641">
+  <suite started-at="2023-08-23T13:33:57 IST" name="Default suite" finished-at="2023-08-23T13:34:51 IST" duration-ms="54256">
     <groups>
     </groups>
-    <test started-at="2023-08-07T08:11:46 IST" name="Default test" finished-at="2023-08-07T08:12:16 IST" duration-ms="29641">
-      <class name="testcases.HandlingExcel">
-        <test-method is-config="true" signature="openUrl()[pri:0, instance:testcases.HandlingExcel@71d44a3]" started-at="2023-08-07T08:11:46 IST" name="openUrl" finished-at="2023-08-07T08:12:04 IST" duration-ms="17418" status="PASS">
+    <test started-at="2023-08-23T13:33:57 IST" name="Default test" finished-at="2023-08-23T13:34:51 IST" duration-ms="54256">
+      <class name="testcases.SignUpHandle">
+        <test-method is-config="true" signature="openUrl()[pri:0, instance:testcases.SignUpHandle@5542c4ed]" started-at="2023-08-23T13:33:57 IST" name="openUrl" finished-at="2023-08-23T13:34:02 IST" duration-ms="5618" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openUrl -->
-        <test-method signature="excel()[pri:0, instance:testcases.HandlingExcel@71d44a3]" started-at="2023-08-07T08:12:04 IST" name="excel" finished-at="2023-08-07T08:12:15 IST" duration-ms="11907" status="PASS">
+        <test-method signature="signup()[pri:0, instance:testcases.SignUpHandle@5542c4ed]" started-at="2023-08-23T13:34:02 IST" name="signup" finished-at="2023-08-23T13:34:51 IST" duration-ms="48280" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- excel -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.HandlingExcel@71d44a3]" started-at="2023-08-07T08:12:15 IST" name="closeBrowser" finished-at="2023-08-07T08:12:16 IST" duration-ms="258" status="PASS">
+        </test-method> <!-- signup -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testcases.SignUpHandle@5542c4ed]" started-at="2023-08-23T13:34:51 IST" name="closeBrowser" finished-at="2023-08-23T13:34:51 IST" duration-ms="305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- testcases.HandlingExcel -->
+      </class> <!-- testcases.SignUpHandle -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

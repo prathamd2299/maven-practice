@@ -52,7 +52,7 @@ public class SignUpHandle extends BrowserHandle {
 		for (WebElement option : options)
 			System.out.println(option.getText());
 
-		select.selectByIndex(6);
+		select.selectByIndex(7);
 		System.out.println("Selected option is: " + select.getFirstSelectedOption().getText());
 		Thread.sleep(2000);
 // ****************	Company Name Textbox ************ 		

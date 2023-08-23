@@ -11,6 +11,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class BrowserHandle {
 	public static WebDriver driver;
 
@@ -36,14 +38,17 @@ public class BrowserHandle {
 
 		switch (browserName) {
 		case "chrome":
+			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 			break;
 
 		case "edge":
+			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 			break;
 
 		case "firefox":
+			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 			break;
 
