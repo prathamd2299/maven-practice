@@ -10,14 +10,17 @@ import pageObjectModel.LoginPageObject;
 import resources.BrowserHandle;
 
 public class LoginHandle extends BrowserHandle {
+	// Here we are calling the Data Provider object with its Name
 	@Test(dataProvider = "testData")
 	public void login(String un, String pwd) throws InterruptedException, IOException {
 
 		LoginPageObject lo = new LoginPageObject(driver);
 		Thread.sleep(2000);
+		// Argument passed will be used here as String Variable
 		lo.enterUsername().sendKeys(un);
 		System.out.println("Username value is: " + lo.enterUsername().getAttribute("value"));
 		Thread.sleep(2000);
+		// Argument passed will be used here as String Variable
 		lo.enterPassword().sendKeys(pwd);
 		System.out.println("Username value is: " + lo.enterPassword().getAttribute("value"));
 		Thread.sleep(2000);
@@ -35,14 +38,21 @@ public class LoginHandle extends BrowserHandle {
 
 	@DataProvider
 	public Object[][] testData() {
-		Object[][] data = new Object[3][2];
-		data[0][0] = "pratham";
-		data[0][1] = "pratham@123";
-		data[1][0] = "prat";
-		data[1][1] = "pratham@123";
-		data[2][0] = "test";
-		data[2][1] = "test@123";
-		return data;
+//		Object[][] data = new Object[3][2];
+//		data[0][0] = "pratham";
+//		data[0][1] = "pratham@123";
+//		data[1][0] = "prat";
+//		data[1][1] = "pratham@123";
+//		data[2][0] = "test";
+//		data[2][1] = "test@123";
+//		return data;
+
+		// The number of times data is repeated, test will be executed the same no. of
+		// times
+
+		// Here it will execute two times
+
+		return new Object[][] { { "testuser_1", "Test@123" }, { "testuser_1", "Test@123" } };
 	}
 
 }

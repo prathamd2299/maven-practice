@@ -51,6 +51,8 @@ public class HandlingExcel extends BrowserHandle {
 		SoftAssert sa = new SoftAssert();
 		sa.assertEquals(actual, expected);
 		System.out.println("soft assertion pass");
+		// This is required to see the exceptions,
+		// otherwise, the tester won't know what passed and what failed.
 		sa.assertAll();
 	}
 }

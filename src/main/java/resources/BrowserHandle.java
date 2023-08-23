@@ -24,12 +24,15 @@ public class BrowserHandle {
 		prop.load(fis);
 		String browserName = prop.getProperty("browser");
 
-		/*
-		 * if (browserName.equalsIgnoreCase("chrome")) { driver = new ChromeDriver(); }
-		 * else if (browserName.equalsIgnoreCase("Edge")) { driver = new EdgeDriver(); }
-		 * else if (browserName.equalsIgnoreCase("firefox")) { driver = new
-		 * FirefoxDriver(); } else { System.out.println("Browser is not valid"); }
-		 */
+//		if (browserName.equalsIgnoreCase("chrome")) {
+//			driver = new ChromeDriver();
+//		} else if (browserName.equalsIgnoreCase("Edge")) {
+//			driver = new EdgeDriver();
+//		} else if (browserName.equalsIgnoreCase("firefox")) {
+//			driver = new FirefoxDriver();
+//		} else {
+//			System.out.println("Browser is not valid");
+//		}
 
 		switch (browserName) {
 		case "chrome":
